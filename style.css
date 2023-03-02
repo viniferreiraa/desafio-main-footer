@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+}
+
+header .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header .elemento-label {
+    background-color: #264FEC;
+    padding: 8px;
+    border-radius: 7px;
+    display: flex;
+    gap: 5px;
+    height: 40px;
+    align-items: center;
+}
+
+header .elemento-input {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+::placeholder {
+    color: #c6c5c5;
+}
+
+h1 {
+    color: #264FEC;
+    font-size: 27px;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+section {
+    width: calc((100% - 64px) / 3);
+    background-color: #fff;
+    padding: 32px 32px 96px;
+    border-radius: 10px;
+    position: relative;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #33475B;;
+}
+
+section .texto {
+    margin-bottom: 15px;
+}
+
+section .link {
+    border: 1px solid #264FEC;
+    padding: 15px;
+    color: #264FEC;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    height: 55px;
+    bottom: 27px;
+    font-weight: bold;
+}
+
+section .link:hover {
+    background-color: #264FEC;
+    color: #fff;
+    transition: 0.7s all;
+    transform: scale(1.2);
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.rodape-logo {
+    display: flex;
+    gap: 25px;
+}
+
+.rodape-texto-midia {
+    display: flex;
+    gap: 50px;
+}
+
+.rodape-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape-texto a {
+    text-decoration: none;
+}
+
+.rodape-midias {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.icon-midias {
+    display: flex;
+    gap: 15px;
+}
